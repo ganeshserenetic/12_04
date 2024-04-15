@@ -106,7 +106,7 @@ if ($is_ajaxed) {
 
 $options = array(
     'results_per_page' => $per_page,
-    'url' => 'http://localhost/12_04_pagination_acording_project\home.php??' . $query_string,
+    'url' => 'http://localhost/12_04_pagination_acording_project\home.php?' . $query_string,
     'db_handle'  => $dbh,
     'text_prev' => '&laquo; Prev',
     'text_next' => 'Next &raquo;',
